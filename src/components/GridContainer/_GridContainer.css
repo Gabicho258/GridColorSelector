@@ -1,0 +1,30 @@
+body {
+  margin: 20px;
+}
+.App {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 50px);
+  grid-template-rows: repeat(10, 50px);
+}
+.optionColor {
+  margin: 40px 5px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+.optionSelected {
+  outline: 4px solid #e7c427;
+}
+.optionColor__black {
+  background-color: #000;
+}
+.optionColor__green {
+  background-color: #17e421;
+}
+.optionColor__blue {
+  background-color: #1cadf0;
+}
