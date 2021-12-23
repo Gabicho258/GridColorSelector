@@ -42,3 +42,45 @@ esa parte del DOM sin la necesidad de actualizar todo el DOM por completo lo que
 
 **8.- Dado el siguiente codePen, el cual solo tiene un HTML, por medio de css llegar a esta respuesta. Imagen. (Para mostrar los servicios debes usar CSS Flexbox o CSS Grid).**
 
+```
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+li {
+  list-style: none;
+}
+.c-section__title {
+  color: #fff;
+  background-color: #333;
+  padding: 15px 0;
+  border-top: 8px solid #aaa;
+}
+.c-section {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+ul {
+  padding: 0;
+}
+.c-services {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+h3 {
+  text-align: center;
+}
+.c-services__item {
+  width: 43%;
+  background-color: #eee;
+  margin: 10px;
+  text-align: left;
+  padding: 9px 20px;
+}
+.c-services__item:hover {
+  box-shadow: 3px 3px 5px #aaa;
+}
+```
